@@ -10,6 +10,8 @@
 		02F02AFF6D7210000DDADF8D /* libPods-RITLAlertViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B29B3FCCB63968FB4A657DC1 /* libPods-RITLAlertViewController.a */; };
 		DB0210692303A0EA00BE5A96 /* RITLAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB0210682303A0EA00BE5A96 /* RITLAlertController.bundle */; };
 		DB02106B2303A16300BE5A96 /* RITLAlertBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02106A2303A16300BE5A96 /* RITLAlertBundle.swift */; };
+		DB02106F2303E6CF00BE5A96 /* AlertController.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB02106D2303E6CF00BE5A96 /* AlertController.jpg */; };
+		DB0210702303E6CF00BE5A96 /* SheetController.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB02106E2303E6CF00BE5A96 /* SheetController.jpg */; };
 		DBD974AD2302529F00EA1ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974AC2302529F00EA1ED0 /* AppDelegate.swift */; };
 		DBD974AF2302529F00EA1ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974AE2302529F00EA1ED0 /* ViewController.swift */; };
 		DBD974B22302529F00EA1ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD974B02302529F00EA1ED0 /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 		B29B3FCCB63968FB4A657DC1 /* libPods-RITLAlertViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RITLAlertViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0210682303A0EA00BE5A96 /* RITLAlertController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RITLAlertController.bundle; sourceTree = "<group>"; };
 		DB02106A2303A16300BE5A96 /* RITLAlertBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertBundle.swift; sourceTree = "<group>"; };
+		DB02106D2303E6CF00BE5A96 /* AlertController.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AlertController.jpg; sourceTree = "<group>"; };
+		DB02106E2303E6CF00BE5A96 /* SheetController.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SheetController.jpg; sourceTree = "<group>"; };
 		DBD974A92302529F00EA1ED0 /* RITLAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RITLAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD974AC2302529F00EA1ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBD974AE2302529F00EA1ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +75,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DB02106C2303E68C00BE5A96 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				DB02106D2303E6CF00BE5A96 /* AlertController.jpg */,
+				DB02106E2303E6CF00BE5A96 /* SheetController.jpg */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		DBD974A02302529F00EA1ED0 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +105,7 @@
 		DBD974AB2302529F00EA1ED0 /* RITLAlertViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DB02106C2303E68C00BE5A96 /* Preview */,
 				DBD974BE230252EE00EA1ED0 /* RITLAlertViewController */,
 				DBD974AC2302529F00EA1ED0 /* AppDelegate.swift */,
 				DBD974AE2302529F00EA1ED0 /* ViewController.swift */,
@@ -179,7 +193,9 @@
 				DBD974B7230252A000EA1ED0 /* LaunchScreen.storyboard in Resources */,
 				DB0210692303A0EA00BE5A96 /* RITLAlertController.bundle in Resources */,
 				DBD974B4230252A000EA1ED0 /* Assets.xcassets in Resources */,
+				DB02106F2303E6CF00BE5A96 /* AlertController.jpg in Resources */,
 				DBD974B22302529F00EA1ED0 /* Main.storyboard in Resources */,
+				DB0210702303E6CF00BE5A96 /* SheetController.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

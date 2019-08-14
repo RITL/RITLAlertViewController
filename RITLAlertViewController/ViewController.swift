@@ -28,9 +28,9 @@ class ViewController: UIViewController {
             
         }))
             
-        alertController.addAction(action: RITLAlertAction(title: "取消", style: .cancle, tapHander: {
-            
-        }))
+//        alertController.addAction(action: RITLAlertAction(title: "取消", style: .cancle, tapHander: {
+//            
+//        }))
         
         alertController.addAction(action: RITLAlertAction(title: "a啦啦啦", style: .destructive, tapHander: {
             
