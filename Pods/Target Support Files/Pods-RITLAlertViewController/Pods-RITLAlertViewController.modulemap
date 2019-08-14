@@ -1,0 +1,6 @@
+module Pods_RITLAlertViewController {
+  umbrella header "Pods-RITLAlertViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

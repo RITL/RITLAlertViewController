@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F02AFF6D7210000DDADF8D /* libPods-RITLAlertViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B29B3FCCB63968FB4A657DC1 /* libPods-RITLAlertViewController.a */; };
+		DB0210692303A0EA00BE5A96 /* RITLAlertController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB0210682303A0EA00BE5A96 /* RITLAlertController.bundle */; };
+		DB02106B2303A16300BE5A96 /* RITLAlertBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB02106A2303A16300BE5A96 /* RITLAlertBundle.swift */; };
+		DBD974AD2302529F00EA1ED0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974AC2302529F00EA1ED0 /* AppDelegate.swift */; };
+		DBD974AF2302529F00EA1ED0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974AE2302529F00EA1ED0 /* ViewController.swift */; };
+		DBD974B22302529F00EA1ED0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD974B02302529F00EA1ED0 /* Main.storyboard */; };
+		DBD974B4230252A000EA1ED0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD974B3230252A000EA1ED0 /* Assets.xcassets */; };
+		DBD974B7230252A000EA1ED0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD974B5230252A000EA1ED0 /* LaunchScreen.storyboard */; };
+		DBD974C02302532300EA1ED0 /* RITLAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974BF2302532300EA1ED0 /* RITLAlertController.swift */; };
+		DBD974C22302557D00EA1ED0 /* RITLAlertPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974C12302557D00EA1ED0 /* RITLAlertPresentAnimator.swift */; };
+		DBD974C4230257D200EA1ED0 /* RITLAlertDismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974C3230257D200EA1ED0 /* RITLAlertDismissAnimator.swift */; };
+		DBD974C623025ABD00EA1ED0 /* RITLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974C523025ABD00EA1ED0 /* RITLAlertView.swift */; };
+		DBD974C823025B4400EA1ED0 /* RITLAlertAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD974C723025B4400EA1ED0 /* RITLAlertAction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12E23AAF0CED61A2674C93C1 /* Pods-RITLAlertViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLAlertViewController.release.xcconfig"; path = "Target Support Files/Pods-RITLAlertViewController/Pods-RITLAlertViewController.release.xcconfig"; sourceTree = "<group>"; };
+		B29B3FCCB63968FB4A657DC1 /* libPods-RITLAlertViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RITLAlertViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB0210682303A0EA00BE5A96 /* RITLAlertController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RITLAlertController.bundle; sourceTree = "<group>"; };
+		DB02106A2303A16300BE5A96 /* RITLAlertBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertBundle.swift; sourceTree = "<group>"; };
+		DBD974A92302529F00EA1ED0 /* RITLAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RITLAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD974AC2302529F00EA1ED0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBD974AE2302529F00EA1ED0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBD974B12302529F00EA1ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBD974B3230252A000EA1ED0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBD974B6230252A000EA1ED0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBD974B8230252A000EA1ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD974BF2302532300EA1ED0 /* RITLAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertController.swift; sourceTree = "<group>"; };
+		DBD974C12302557D00EA1ED0 /* RITLAlertPresentAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertPresentAnimator.swift; sourceTree = "<group>"; };
+		DBD974C3230257D200EA1ED0 /* RITLAlertDismissAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertDismissAnimator.swift; sourceTree = "<group>"; };
+		DBD974C523025ABD00EA1ED0 /* RITLAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertView.swift; sourceTree = "<group>"; };
+		DBD974C723025B4400EA1ED0 /* RITLAlertAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RITLAlertAction.swift; sourceTree = "<group>"; };
+		F9284CECB82A067B0AAB8E0B /* Pods-RITLAlertViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RITLAlertViewController.debug.xcconfig"; path = "Target Support Files/Pods-RITLAlertViewController/Pods-RITLAlertViewController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD974A62302529F00EA1ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F02AFF6D7210000DDADF8D /* libPods-RITLAlertViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12C561AF170922BDED46B7C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B29B3FCCB63968FB4A657DC1 /* libPods-RITLAlertViewController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1EAAD6EB5A7B8B40E13B7C18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9284CECB82A067B0AAB8E0B /* Pods-RITLAlertViewController.debug.xcconfig */,
+				12E23AAF0CED61A2674C93C1 /* Pods-RITLAlertViewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DBD974A02302529F00EA1ED0 = {
+			isa = PBXGroup;
+			children = (
+				DBD974AB2302529F00EA1ED0 /* RITLAlertViewController */,
+				DBD974AA2302529F00EA1ED0 /* Products */,
+				1EAAD6EB5A7B8B40E13B7C18 /* Pods */,
+				12C561AF170922BDED46B7C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD974AA2302529F00EA1ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD974A92302529F00EA1ED0 /* RITLAlertViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD974AB2302529F00EA1ED0 /* RITLAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBD974BE230252EE00EA1ED0 /* RITLAlertViewController */,
+				DBD974AC2302529F00EA1ED0 /* AppDelegate.swift */,
+				DBD974AE2302529F00EA1ED0 /* ViewController.swift */,
+				DBD974B02302529F00EA1ED0 /* Main.storyboard */,
+				DBD974B3230252A000EA1ED0 /* Assets.xcassets */,
+				DBD974B5230252A000EA1ED0 /* LaunchScreen.storyboard */,
+				DBD974B8230252A000EA1ED0 /* Info.plist */,
+			);
+			path = RITLAlertViewController;
+			sourceTree = "<group>";
+		};
+		DBD974BE230252EE00EA1ED0 /* RITLAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBD974BF2302532300EA1ED0 /* RITLAlertController.swift */,
+				DBD974C12302557D00EA1ED0 /* RITLAlertPresentAnimator.swift */,
+				DBD974C3230257D200EA1ED0 /* RITLAlertDismissAnimator.swift */,
+				DBD974C523025ABD00EA1ED0 /* RITLAlertView.swift */,
+				DBD974C723025B4400EA1ED0 /* RITLAlertAction.swift */,
+				DB0210682303A0EA00BE5A96 /* RITLAlertController.bundle */,
+				DB02106A2303A16300BE5A96 /* RITLAlertBundle.swift */,
+			);
+			path = RITLAlertViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD974A82302529F00EA1ED0 /* RITLAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD974BB230252A000EA1ED0 /* Build configuration list for PBXNativeTarget "RITLAlertViewController" */;
+			buildPhases = (
+				B774ED4C582787B1355F613B /* [CP] Check Pods Manifest.lock */,
+				DBD974A52302529F00EA1ED0 /* Sources */,
+				DBD974A62302529F00EA1ED0 /* Frameworks */,
+				DBD974A72302529F00EA1ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RITLAlertViewController;
+			productName = RITLAlertViewController;
+			productReference = DBD974A92302529F00EA1ED0 /* RITLAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD974A12302529F00EA1ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = YueWen;
+				TargetAttributes = {
+					DBD974A82302529F00EA1ED0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = DBD974A42302529F00EA1ED0 /* Build configuration list for PBXProject "RITLAlertViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBD974A02302529F00EA1ED0;
+			productRefGroup = DBD974AA2302529F00EA1ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD974A82302529F00EA1ED0 /* RITLAlertViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD974A72302529F00EA1ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD974B7230252A000EA1ED0 /* LaunchScreen.storyboard in Resources */,
+				DB0210692303A0EA00BE5A96 /* RITLAlertController.bundle in Resources */,
+				DBD974B4230252A000EA1ED0 /* Assets.xcassets in Resources */,
+				DBD974B22302529F00EA1ED0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B774ED4C582787B1355F613B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RITLAlertViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD974A52302529F00EA1ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD974C623025ABD00EA1ED0 /* RITLAlertView.swift in Sources */,
+				DBD974C22302557D00EA1ED0 /* RITLAlertPresentAnimator.swift in Sources */,
+				DBD974C02302532300EA1ED0 /* RITLAlertController.swift in Sources */,
+				DBD974C823025B4400EA1ED0 /* RITLAlertAction.swift in Sources */,
+				DBD974AF2302529F00EA1ED0 /* ViewController.swift in Sources */,
+				DB02106B2303A16300BE5A96 /* RITLAlertBundle.swift in Sources */,
+				DBD974AD2302529F00EA1ED0 /* AppDelegate.swift in Sources */,
+				DBD974C4230257D200EA1ED0 /* RITLAlertDismissAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBD974B02302529F00EA1ED0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD974B12302529F00EA1ED0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBD974B5230252A000EA1ED0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD974B6230252A000EA1ED0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD974B9230252A000EA1ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBD974BA230252A000EA1ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBD974BC230252A000EA1ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9284CECB82A067B0AAB8E0B /* Pods-RITLAlertViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S4NWFZC5J;
+				INFOPLIST_FILE = RITLAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.RITLAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBD974BD230252A000EA1ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E23AAF0CED61A2674C93C1 /* Pods-RITLAlertViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S4NWFZC5J;
+				INFOPLIST_FILE = RITLAlertViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.RITLAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD974A42302529F00EA1ED0 /* Build configuration list for PBXProject "RITLAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD974B9230252A000EA1ED0 /* Debug */,
+				DBD974BA230252A000EA1ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD974BB230252A000EA1ED0 /* Build configuration list for PBXNativeTarget "RITLAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD974BC230252A000EA1ED0 /* Debug */,
+				DBD974BD230252A000EA1ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD974A12302529F00EA1ED0 /* Project object */;
+}
