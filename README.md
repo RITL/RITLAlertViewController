@@ -28,7 +28,7 @@
 ```
 - 预览样式
 
-<img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/AlertController.jpg" width=300></img>
+<img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/RITLAlertController.jpg" width=300></img>
 
 - SheetController
 ```
@@ -54,5 +54,5 @@
 }
 ```
 - 预览的样式
-<img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/SheetController.jpg" width=200></img>
+<img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/RITLSheetController.jpg" width=200></img>
 
