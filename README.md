@@ -53,6 +53,6 @@
     present(alertController, animated: true, completion: nil)
 }
 ```
-预览的样式
+- 预览的样式
 <img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/SheetController.jpg" width=200></img>
 
