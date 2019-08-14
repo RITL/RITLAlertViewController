@@ -3,7 +3,7 @@
 思路来源于[(Objective-C)ASPopupController](https://github.com/Hcy91425/ASPopupController)
 
 
-- AlertController
+## Alert Style
 ```
 @IBAction func presentAlertController(_ sender: Any) {
     
@@ -26,11 +26,11 @@
 }
 
 ```
-- 预览样式
+预览样式
 
 <img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/RITLAlertController.jpg" width=300></img>
 
-- SheetController
+## Sheet Style
 ```
 @IBAction func presentAlertController(_ sender: Any) {
     
@@ -53,6 +53,7 @@
     present(alertController, animated: true, completion: nil)
 }
 ```
-- 预览的样式
+预览的样式
+
 <img src="https://github.com/RITL/RITLAlertViewController/blob/master/RITLAlertViewController/Preview/RITLSheetController.jpg" width=200></img>
 
